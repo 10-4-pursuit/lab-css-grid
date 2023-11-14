@@ -1,9 +1,37 @@
 /* Write your CSS here! */
 
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  
+}
+
+ul a {
+  display: block;
+  margin-bottom: 25px;
+}
+
+div p {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+
+
+
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+  padding: 10px;
+
 }
 
 .logo img {
@@ -24,6 +52,7 @@
 .menu a {
   color: white;
   text-decoration: none;
+  
 }
 
 .sidebar {
@@ -36,10 +65,12 @@
   background: #ececec;
   height: 750px;
   text-align: center;
+  overflow-y: auto;
 }
 
 .footer {
   background: yellow;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
+
 }
