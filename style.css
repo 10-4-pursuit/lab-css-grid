@@ -64,7 +64,18 @@
   grid-template-columns: 1fr 3fr;
 }
 
+ul {
+  display: grid;
+  grid-template-columns: auto auto; 
+  gap: 20px;
+  list-style: none; 
+}
 
+.title-container {
+height:5px;
+white-space: nowrap;
+
+}
   
 
 
