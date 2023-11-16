@@ -43,3 +43,39 @@
   padding: 10px;
   text-align: center;
 }
+
+
+
+
+
+/*don't touch above code*/
+
+
+
+
+
+.header{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.primary-content{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto auto; 
+  gap: 20px;
+  list-style: none; 
+}
+
+.title-container {
+height:5px;
+white-space: nowrap;
+
+}
+  
+
+
