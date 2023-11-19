@@ -1,41 +1,53 @@
 /* Write your CSS here! */
-
+.primary-content {
+  display: grid;
+  grid-template-columns: 2fr 200px 600px;
+  grid-template-rows: 500px auto;
+}
 /* Do not change the CSS below. */
+
 
 .header {
   background: #4242ea;
+ height: 120px;
 }
 
 .logo img {
-  height: 50px;
+  height: 60px;
   margin: 15px 0 0 15px;
   width: auto;
 }
 
 .menu ul {
-  padding: 0;
+  text-align: center;
+  
 }
 
 .menu ul li {
   display: inline-block;
-  padding: 15px;
 }
 
 .menu a {
   color: white;
-  text-decoration: none;
+
+
 }
 
 .sidebar {
-  background: #2d2d2d;
-  color: white;
-  text-align: center;
+  background: black;
+  text-align:center;
 }
+
+.sidebar p {
+  color: white;
+}
+
 
 .main {
   background: #ececec;
-  height: 750px;
   text-align: center;
+  width: 900px
+  
 }
 
 .footer {
