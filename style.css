@@ -1,5 +1,14 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
 
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
 /* Do not change the CSS below. */
 
 .header {
@@ -29,7 +38,7 @@
 .sidebar {
   background: #2d2d2d;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .main {
@@ -43,3 +52,18 @@
   padding: 10px;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .splash {
+    display: none;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
